@@ -118,6 +118,16 @@
     transform: scale(1.1);
 }
 
+.sec3 {
+    padding: 50px 70px;
+}
+
+.secTitle{
+    color: #384A62;
+    font-family: "DM Serif Display", serif;
+    font-size: 30px;
+}
+
 
 @media screen and (max-width:768px) {
     .anchor a {
