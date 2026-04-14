@@ -122,10 +122,22 @@
     padding: 50px 70px;
 }
 
-.secTitle{
+.print-shop{
     color: #384A62;
     font-family: "DM Serif Display", serif;
     font-size: 30px;
+}
+
+.nigeria p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #506683;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 650px;
+}
+.logos img{
+    width: 100%;
 }
 
 
