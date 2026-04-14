@@ -201,6 +201,45 @@
     font-weight: 700;
 }
 
+.footerSec {
+    background-color: #2f3b52;
+    color: #fff;
+    /* padding: 50px 20px; */
+}
+
+.footerMain{
+    padding: 50px 20px;
+}
+
+.footerTitle {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footerList {
+    list-style: none;
+    padding: 0;
+}
+
+.footerList li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #f9f6fa;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footerList li:hover {
+    text-decoration: underline;
+}
+
+.footerBottom{
+    background-color: #cbcac8;
+    color: #333;
+    padding: 15px;
+    font-size: 14px;
+}
+
 
 
 
