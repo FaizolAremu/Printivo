@@ -167,6 +167,10 @@
         font-size: 14px;
     }
 
+    .search-box {
+        width: 100%;
+    }
+
 
     .search-box input {
         width: 390px;
@@ -177,9 +181,22 @@
         display: none;
     }
 
-    .Products{
-        gap: 20px;
+    /* .sec2-div{
+        align-items: center;
+    } */
+
+   
+
+    .sec2-div{
+        width: 100%;
     }
 
+     .product {
+        font-size: 18px;
+    }
+
+    .see-product {
+        font-size: 14px;
+    }
 
 }
