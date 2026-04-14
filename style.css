@@ -193,6 +193,12 @@
 
 .sec6 {
     padding: 50px 70px;
+    background-color: #f7f6f4;
+}
+
+.sec6 a{
+    color: #384a62;
+    font-weight: 700;
 }
 
 
