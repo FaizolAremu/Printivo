@@ -19,12 +19,17 @@
 
 .div2 {
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .div2 button {
     padding: 0px 10px;
     border-radius: 20px;
     border: 1px solid #cbcac8;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
 }
 
 .main-section {
@@ -46,6 +51,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .menu {
@@ -80,8 +86,8 @@
 }
 
 .maindiv-image img {
-    max-width: 100%;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
 
 }
 
@@ -90,7 +96,9 @@
 }
 
 .search-box input {
-    width: 700px;
+    /* width: 700px; */
+    width: 100%;
+    min-width: 700px;
     height: 80px;
     padding: 10px 50px 10px 15px;
     border: none;
@@ -122,13 +130,13 @@
     padding: 50px 70px;
 }
 
-.print-shop{
+.print-shop {
     color: #384A62;
     font-family: "DM Serif Display", serif;
     font-size: 30px;
 }
 
-.nigeria p{
+.nigeria p {
     font-size: 20px;
     font-weight: 600;
     color: #506683;
@@ -136,7 +144,8 @@
     width: 100%;
     max-width: 650px;
 }
-.logos img{
+
+.logos img {
     width: 100%;
 }
 
@@ -153,7 +162,8 @@
     height: 100%;
     gap: 20px;
 }
-.review button{
+
+.review button {
     height: 33px;
     width: 33px;
     padding: 10px;
@@ -161,20 +171,23 @@
     align-items: center;
     border: solid 1px rgb(231, 231, 231);
 }
-.review-name{
+
+.review-name {
     font-weight: 500;
     font-size: 14px;
     margin-bottom: 15px;
 }
-.review .review-p{
+
+.review .review-p {
     font-size: 15px;
 }
-.review-p a{
+
+.review-p a {
     color: #1DA1F2;
     text-decoration: none;
 }
 
-.review-name a{
+.review-name a {
     text-decoration: none;
 }
 
@@ -182,12 +195,12 @@
     padding: 50px 70px;
 }
 
-.sec5 p{
+.sec5 p {
     font-size: 15.5px;
     color: #677FAB;
 }
 
-.sec5 strong{
+.sec5 strong {
     color: #384a62;
 }
 
@@ -196,7 +209,7 @@
     background-color: #f7f6f4;
 }
 
-.sec6 a{
+.sec6 a {
     color: #384a62;
     font-weight: 700;
 }
@@ -206,7 +219,7 @@
     color: #fff;
 }
 
-.footerMain{
+.footerMain {
     padding: 50px 20px;
 }
 
@@ -232,7 +245,7 @@
     text-decoration: underline;
 }
 
-.footerBottom{
+.footerBottom {
     background-color: #cbcac8;
     color: #333;
     padding: 15px;
@@ -266,9 +279,15 @@
         display: none;
     }
 
-    /* .menu{
-        display: flex;
+    /* .menu {
+        display: block;
     } */
+
+    .maindiv-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
 
     .maindiv {
         flex-direction: column;
@@ -296,7 +315,8 @@
 
 
     .search-box input {
-        width: 390px;
+        width: 100%;
+        min-width: 350px;
         height: 60px;
     }
 
@@ -308,13 +328,13 @@
         align-items: center;
     } */
 
-   
 
-    .sec2-div{
+
+    .sec2-div {
         width: 100%;
     }
 
-     .product {
+    .product {
         font-size: 18px;
     }
 
