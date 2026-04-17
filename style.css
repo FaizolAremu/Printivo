@@ -7,6 +7,7 @@
 .section1 {
     padding: 20px 100px;
     background-color: #f7f6f4;
+    
 }
 
 .anchor {
@@ -36,6 +37,15 @@
     padding: 20px 100px;
     background-color: #ece8d9;
 }
+
+.nav-bar{
+     position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #ece8d9; 
+    padding: 20px 100px;
+}
+
 
 .nav-link a {
     color: #4e5d70;
@@ -350,6 +360,10 @@
 
     .div2 span {
         display: none;
+    }
+    
+    .nav-bar{
+        padding: 10px 15px;
     }
 
     .nav-link a {
