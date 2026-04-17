@@ -200,9 +200,19 @@
     padding: 50px 70px;
 }
 
+.contentCon div {
+    flex: 1;
+}
+
+.contentCon img {
+    width: 40px;
+    flex-shrink: 0;
+}
+
 .sec5 p {
     font-size: 15.5px;
     color: #677FAB;
+    line-height: 1.6;
 }
 
 .sec5 strong {
@@ -271,6 +281,10 @@
 
     .review {
         word-break: normal;
+    }
+
+    .sec5 {
+        padding: 30px 15px;
     }
 }
 
