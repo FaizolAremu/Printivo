@@ -163,13 +163,18 @@
     gap: 20px;
 }
 
+.review div {
+    flex: 1;
+}
+
 .review button {
     height: 33px;
     width: 33px;
-    padding: 10px;
+    padding: 4px;
     display: flex;
     align-items: center;
     border: solid 1px rgb(231, 231, 231);
+    flex-shrink: 0;
 }
 
 .review-name {
@@ -253,6 +258,21 @@
 }
 
 
+
+
+@media screen and (max-width: 500px) {
+    .sec4 {
+        padding: 30px 15px;
+    }
+
+    .review-p {
+        line-height: 1.6;
+    }
+
+    .review {
+        word-break: normal;
+    }
+}
 
 
 @media screen and (max-width:768px) {
