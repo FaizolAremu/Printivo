@@ -295,6 +295,26 @@
         padding: 30px 15px;
     }
 
+     .secTitle {
+        font-size: 20px;
+    }
+
+    .seeProduct {
+        font-size: 14px;
+    }
+
+    .sec2{
+        padding: 30px 15px;
+    }
+
+    .product{
+        font-size: 20px;
+    }
+
+    .see-product{
+        font-size: 14px;
+    }
+
     
 }
 
