@@ -56,6 +56,11 @@
 
 .menu {
     display: none;
+    padding: 8px 12px;
+    border: none;
+    background-color: #FFFF;
+    color: #384a62;
+    font-weight: 600;
 }
 
 .main-div h1 {
@@ -287,15 +292,15 @@
         padding: 30px 15px;
     }
 
-    .sec6{
+    .sec6 {
         padding: 30px 15px;
     }
 
-    .sec3{
+    .sec3 {
         padding: 30px 15px;
     }
 
-     .secTitle {
+    .secTitle {
         font-size: 20px;
     }
 
@@ -303,19 +308,19 @@
         font-size: 14px;
     }
 
-    .sec2{
+    .sec2 {
         padding: 30px 15px;
     }
 
-    .product{
+    .product {
         font-size: 20px;
     }
 
-    .see-product{
+    .see-product {
         font-size: 14px;
     }
 
-    
+
 }
 
 
@@ -343,9 +348,26 @@
         display: none;
     }
 
-    /* .menu {
+    .nav-link {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-right {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: flex-end;
+    }
+
+    .menu {
         display: block;
-    } */
+    }
+
+    #signin {
+        display: block;
+    }
 
     .maindiv-container {
         flex-direction: column;
